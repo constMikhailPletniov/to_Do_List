@@ -8,6 +8,7 @@ function addPlans() {
         let buttonDelete = document.createElement('button');
         div.className = INPUT.value + ' ' + 'container-li';
         newInputCheck.type = 'checkbox';
+        newInputValue.contentEditable = true;
         newInputValue.textContent = INPUT.value;
         buttonDelete.id = INPUT.value + ' ' + 'btn-delete-li';
         buttonDelete.className = 'btn-delete-li';
