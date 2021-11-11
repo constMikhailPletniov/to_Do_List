@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>TO_DO_LIST</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1 class="h1">TO DO LIST</h1>
+        </header>
+        <main class="main">
+            <section class="section">
+                <h2>Plans</h2>
+                <div class="div_input">
+                    <label for="to-do-input">Your Plans</label>
+                    <input type="text" name="to-do-input" id="input-text" maxlength="30" />
+                    <button class="push-btn" id="btn-push">Push</button>
+                </div>
+                <div class="plans-out">
+                    <ul class="list">
+                    </ul>
+                </div>
+
+            </section>
+        </main>
+        <footer class="footer">
+            <h3>Create by Mikhail Pletniov</h3>
+        </footer>
+    </div>
+    <script src="./addPlans.js"></script>
+    <script src="./deletePlans.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
