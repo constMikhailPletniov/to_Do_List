@@ -40,6 +40,7 @@ html{
     min-height: 50vh;
     background-color: rgb(180,170,250);
     border-radius: 10%;
+   
 }
 
 .push-btn{
@@ -68,6 +69,14 @@ label{
     flex-direction: column;
     min-width: 100%;
 }
+.list > div{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5%;
+    flex-direction: row;
+    min-width: 100%;
+}
 
 .container-li{
     display: flex;
@@ -78,9 +87,24 @@ label{
 }
 
 .btn-delete-li{
+    height: 20px;
     background-color:rgb(230, 100, 100);
     color:rgb(255,255,255);
 }
 .btn-delete-li:hover{
     background-color:rgb(10,5,45);
+}
+.plans-out{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+li{
+    width: 60px;
+    margin-right: 5px;
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
 }
